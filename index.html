@@ -51,21 +51,20 @@
         <p class="section-subtitle">Cada foto conta nossa história de amor</p>
 
         <div class="gallery">
-            <button class="nav-btn prev-btn" onclick="previousPhoto()">
-                <span>‹</span>
-            </button>
+  <div class="photo-container">
+    <div class="photo-frame">
 
-            <div class="photo-container">
-                <div class="photo-frame">
-                    <img id="main-photo" src="FOTOS/foto1.jpg" alt="Foto do casal">
-                </div>
-                <div id="love-burst"></div>
-            </div>
+      <button class="nav-btn prev-btn" onclick="previousPhoto()">❮</button>
 
-            <button class="nav-btn next-btn" onclick="nextPhoto()">
-                <span>›</span>
-            </button>
-        </div>
+      <img id="main-photo" src="FOTOS/foto1.jpg" alt="Foto do casal">
+
+      <button class="nav-btn next-btn" onclick="nextPhoto()">❯</button>
+
+    </div>
+
+    <div id="love-burst"></div>
+  </div>
+</div>
 
         <div class="photo-info">
             <p class="photo-description" id="photo-description"></p>
